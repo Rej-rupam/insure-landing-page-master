@@ -1,0 +1,162 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+* {
+  margin: 0;
+}
+/*-----navbar-section-------*/
+
+#navbarNav {
+  justify-content: right;
+  align-items: center;
+}
+.nav-item-plans a {
+  border: solid 1px;
+  padding: 8px 0px;
+  text-decoration: none;
+  color: black;
+}
+/*---hero-section----*/
+#hero-section {
+  overflow-x: hidden;
+}
+.hero {
+  background-color: hsl(256, 26%, 20%);
+  position: relative;
+  height: 570px;
+}
+.background-image-right {
+  position: absolute;
+  top: -20%;
+  left: 70%;
+  z-index: 9;
+}
+.background-image-left {
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  z-index: 9;
+}
+.text-container {
+  height: 500px;
+  position: relative;
+  align-items: center;
+}
+.content {
+  color: white;
+}
+.content hr {
+  width: 170px;
+  height: 40px;
+  color: white;
+}
+.text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.heading {
+  font-size: 60px;
+  font-weight: 900;
+  font-family: "DM Serif Display", serif;
+}
+.hero-btn a {
+  color: white;
+  text-decoration: none;
+  border: solid 2px;
+  padding: 12px 24px;
+  margin-top: 30px;
+}
+.hero-img img {
+  position: absolute;
+  top: 20%;
+  left: 58%;
+  height: 600px;
+}
+/*-------about-section--------*/
+.about {
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+.about hr {
+  width: 170px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+}
+.icon-box {
+  margin-top: 80px;
+}
+.icon {
+  margin-bottom: 20px;
+}
+.icon-box-heading {
+  font-weight: 400;
+  font-family: "DM Serif Display", serif;
+}
+.about-2 {
+  display: flex;
+  height: 250px;
+  background-color: hsl(256, 26%, 20%);
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.about-2-background {
+  position: absolute;
+  left: 65%;
+}
+.inner h2 {
+  color: white;
+  font-size: 50px;
+  font-family: "DM Serif Display", serif;
+}
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-2-text {
+  margin-left: 50px;
+}
+.about-2-button {
+  margin-right: 50px;
+}
+.about-2-button a {
+  text-decoration: none;
+  color: white;
+  border: solid 2px;
+  padding: 12px 24px;
+}
+/*-----footer-section------*/
+#footer-section {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.first-row-2nd-collumn {
+  justify-content: end;
+  padding-bottom: 30px;
+}
+.first-row-2nd-collumn a {
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+  color: hsl(273, 4%, 51%);
+}
+.footer {
+  position: relative;
+  padding-top: 60px;
+  overflow: hidden;
+}
+.design {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.footer-content {
+  position: relative;
+  z-index: 999999;
+}
+.link {
+  z-index: 9999;
+}
